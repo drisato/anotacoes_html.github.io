@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css"
+  href="index.css">
+  <title>CSS
+  </title>
+</head>
+<body>
+  <h1> Conceitos CSS
+  </h1>
+  <div class=Definicao>
+    <p> <b><em>CSS</em></b>: sigla que significa <em>"<b>C</b>ascading <b>S</b>tyle <b>S</b>heets"</em><br>
+    Serve para conferir estilo às páginas html.Com ele é possível formatar as páginas html de forma mais simples, evitando repetições. <br>
+    Por exemplo, pode-se definir estilos por classes de elementos.
+    </p>
+  </div>
+  <div>
+    <h3>Estrutura CSS
+    </h3>
+      <div>
+        <h4> SELETOR {DECLARAÇÃO: PROPRIEDADE}
+        </h4>
+      </div>
+  </div>
+  <div>
+    <div class="exemplos">
+      <p>EXEMPLOS:
+      </p>
+    </div>
+      <ul>
+        <li>
+            <h2>Definição de cor para os elementos em h1
+            </h2>
+            <h4>h1 {background-color: black;color:white}
+            </h4>
+            <p>Nesse caso: h1 é um seletor, background-color e color são declarações, black e white são propriedades
+            </p>
+        </li>
+        <li>
+          <h2>Definição por classes
+          </h2>
+          <div>
+            <p>É possível também formatar um seletor específico, utilizando-se seletores de classe.
+    Digamos que tenhamos diversos seletores h1 em um arquivo html. Podemos dividi-los em diversas classes:
+            </p>
+          </div>
+            <h4>&lt; h1 class=<b>x</b> &gt; CONTEÚDO &lt;/h1 &gt;
+            </h4>
+            <h4>&lt; h1 class=<b>y</b> &gt; CONTEÚDO &lt;/h1 &gt;
+            </h4>
+            <h4>&lt; h1 class=<b>z</b> &gt; CONTEÚDO &lt;/h1 &gt;
+            </h4>
+            <p>Se quisermos mudar a aparência de todos os seletores h1 de uma vez só, escrevemos da seguinte forma no arquivo .css:
+            </p>
+            <h4>h1{back-ground-color:black;color:white}
+            </h4>
+            <p>Se quisermos somente alterar a classe x, devemos escrever da seguinte forma:
+            </p>
+            <h4>.x{back-ground-color: black;color:white}
+            </h4>
+        </li>
+      </ul>
+<div>
+  <p>Para estabeler um link entre a página html e o arquivo css, devemos escrever o seguinte código no arquivo html:
+  </p>
+</div>
+    <h4>&lt; link rel="stylesheet" type="text/css"<br>
+    href="NOME DO ARQUIVO.css" &gt;
+    </h4>
+</div>
+<div class="retornar">
+<a href="index.html">Retornar</a>
+</div>
+</body>
+</html>
